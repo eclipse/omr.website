@@ -1,0 +1,109 @@
+<header>
+  <div id="mobile-menu">
+      <div id="nav-button" class="fa fa-bars fa-2x button"></div>
+  </div>
+  <section id="logo"><a href="/" class="omr">Eclipse OMR</a>
+  </section>
+  <div id="navbar">
+      <ul id="navmenu">
+          <li><a href="/" id="home-menu"{% if page.menu == 'home' %} class="active"{% endif %}>Home</a></li>
+          <li>
+              <ul id="getting-started-menu" class="menu">
+                  <li><a href="/starter/whatisomr.html"{% if page.menu == 'starter' %} class="active"{% endif %}>Getting started</a>
+                      <ul>
+                          <li>
+                            <a href="/starter/whatisomr.html">What is OMR?</a>
+                          </li>
+                          <li>
+                            <a href="/starter/goals.html">Project goals</a>
+                          </li>
+                          <li>
+                          <a href="/starter/project.html">Get involved</a>
+                          </li>
+                     </ul>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <ul id="guide-menu" class="menu">
+                  <li><a href="/guide/building.html"{% if page.menu == 'guide' %} class="active"{% endif %}>Guide</a>
+                      <ul>
+                          <li><a href="/guide/building.html">Building</a>
+                          </li>
+                          <li><a href="/guide/configuring.html">Configuring</a>
+                          </li>
+                          <li><a href="/guide/testing.html">Testing your runtime</a>
+                          </li>
+                          <li><a href="/guide/troubleshooting.html">Troubleshooting</a>
+                          </li>
+                          <li><a href="/guide/best-practices.html">Best practices</a>
+                          </li>
+                          <li><a href="/guide/coding-stds.html">Coding standards</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <ul id="reference-menu" class="menu">
+                  <li><a href="/reference/architecture.html"{% if page.menu == 'reference' %} class="active"{% endif %}>Reference</a>
+                      <ul>
+                          <li><a href="/reference/architecture.html">Architecture</a>
+                          </li>
+                          <li><a href="/reference/components.html">Components:</a>
+                          </li>
+						  <li><a class="subsub" href="/reference/thread.html">Thread</a>
+                          </li>
+                          <li><a class="subsub" href="/reference/gc.html">GC</a>
+                          </li>
+						  <li><a class="subsub" href="/reference/vm.html">VM</a>
+                          </li>
+                          <li><a class="subsub" href="/reference/jit.html">JIT</a>
+                          </li>
+						  <li><a class="subsub" href="/reference/port.html">Port</a>
+                          </li>
+                          <li><a class="subsub" href="/reference/tools.html">Tools</a>
+                          </li>
+						  <li><a class="subsub" href="/reference/glue.html">Glue</a>
+                          </li>
+						  <li><a class="subsub" href="/reference/util.html">Util</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <ul id="resources-menu" class="menu">
+                  <li><a href="/resources/omr-on-github.html"{% if page.menu == 'resources' %} class="active"{% endif %}>Resources</a>
+                      <ul>
+                          <li><a href="/resources/omr-on-github.html">OMR on GitHub</a>
+                          </li>
+                          <li><a href="/resources/presentations.html">Presentations</a>
+                          </li>
+                          <li><a href="/resources/blogs.html">Blogs</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+		  <li>
+              <ul id="releases-menu" class="menu">
+                  <li><a href="/releases/first-release.html"{% if page.menu == 'releases' %} class="active"{% endif %}>Releases</a>
+                      <ul>
+                          <li><a href="/releases/first-release.html">What's new</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+		<div id="eggContainer">
+		<div align="center">
+			<a href="https://projects.eclipse.org/projects/technology.omr" style="padding-right: 0px;">
+				<img id="incubatingIcon" align="center" src="../../images/incubating.png" border="0" alt="Incubation" />
+			</a>
+		</div>
+		<h6 id="incubateText">Incubation</h6>
+	</div>
+  </div>
+</header>
