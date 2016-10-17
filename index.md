@@ -30,7 +30,7 @@ lang: en
 	<section>
 		<div>
 			<a class="centerAlign">
-				<img id="homeimg" src="/images/omrLogo1.png" />
+				<img id="homeimg" src="{{ site.baseurl }}/images/omrLogo1.png" />
 			</a>
 		</div>
 	</section>
