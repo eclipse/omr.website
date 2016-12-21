@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JIT
+title: Compiler
 menu: reference
 lang: en
 ---
@@ -23,8 +23,8 @@ lang: en
 [//]: # "*    <First author> - initial implementation and documentation"
 [//]: # "*********************************************************************"
 
-# JIT
+# Compiler
 
 Content is needed for this section of the documentation.
 
-Pull requests are very welcome if you would like to help. For more information about contributing, see: [https://github.com/eclipse/omr/issues/165](https://github.com/eclipse/omr/issues/165). 
+Pull requests are very welcome if you would like to help. For more information about contributing, see: [https://github.com/eclipse/omr/issues/165](https://github.com/eclipse/omr/issues/165).

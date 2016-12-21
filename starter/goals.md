@@ -36,6 +36,5 @@ There are some **active contribution projects** underway right now:
 - **starters:** relatively simple but useful work items meant for people new to the project
 - **diag:** more diagnostic support for language runtimes to help developers and users
 - **hcagent:** the core code for the IBM Health Center agent for interfacing to a runtime
-- **jit:** Just In Time compiler for generating native code for several platforms into managed code caches
+- **jit:** Compiler for generating native code for several platforms into managed code caches
 - **gc:** adding generational and other GC policies
-

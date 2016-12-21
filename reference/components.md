@@ -23,16 +23,16 @@ lang: en
 [//]: # "*    <First author> - initial implementation and documentation"
 [//]: # "*********************************************************************"
 
-# Components 
+# Components
 
-Eclipse OMR is made up of shared, reusable, open-source core components for building language runtimes. These components include: 
+Eclipse OMR is made up of shared, reusable, open-source core components for building language runtimes. These components include:
 
-- **Garbage Collector (GC):** a garbage collection framework for managed heaps. Eclipse OMR includes several implementations: mark-and-sweep, generational, and parallel scavenger. 
+- **Garbage Collector (GC):** a garbage collection framework for managed heaps. Eclipse OMR includes several implementations: mark-and-sweep, generational, and parallel scavenger.
 - **Port Library (port):** a platform abstraction (porting) library.
 - **Thread Library (thread):** a cross platform threading library.
 - **Utility Library (util):** a variety of utility libraries that provide functions for building cross platform runtimes.
 - **Virtual Machine (VM):** APIs to manage per-interpreter and per-thread contexts.
 - **Trace Library (omrtrace):** a tracing library for communication with IBM Health Center monitoring tools.
 - **Signal Handling Compatibility Library (omrsigcompat):** a signal handling compatibility library.
-- **Just-in-Time (JIT) Compiler:** _(to be contributed)_ native code generation.
+- **Compiler:** for native code generation.
 - **Diagnostic services:** _(to be contributed)_ Health Center provides a live view of runtime details, such as GC statistics and method profiling.
