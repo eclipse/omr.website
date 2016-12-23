@@ -23,23 +23,16 @@ lang: en
 [//]: # "*    <First author> - initial implementation and documentation"
 [//]: # "*********************************************************************"
 
-# Recent Presentations about Eclipse OMR:
+# Recent presentations
 
-- Mark Stoodley, [*A VM is a VM is a VM: The Secret Path to High Performance Multi-Language Runtimes.*](https://www.youtube.com/watch?v=kOnyJurioyw)  Talk at the JVM Languages Summit, August 2015.
+- [*Eclipse OMR Tech Talk.*](https://developer.ibm.com/open/videos/eclipse-omr-tech-talk/) Mark Stoodley, developerWorks Open, July 2016.
+- [*OMR: A modern toolkit for building language runtimes*](http://www.slideshare.net/MarkStoodley/omr-a-modern-toolkit-for-building-language-runtimes). Mark Stoodley, EclipseCON, March 2016.
+- [*A JVMs Journey into Polyglot Runtimes.*](https://t.co/efCKf6aCB4) Charlie Gracie, jFokus, February 2016.
+- [*Ruby and OMR: Experiments in utilizing OMR technologies in MRI.*](http://bofh.nikhef.nl/events/FOSDEM/2016/h2213/ruby-and-omr.mp4) Charlie Gracie, FOSDEM, February 2016.
+- [*Building Your Own Runtime.*](https://ibm.box.com/s/7xdg25we2ezmdjjbqdys30d7dl1iyo49) Angela Lin, Robert Young, Craig Lehmann, and Xiaoli Liang, CASCON Workshop, November 2015.
+- [*What's in an Object? Java Garbage Collection for the Polyglot.*](http://www.slideshare.net/charliegracie1/javaone-whats-in-an-object) Charlie Gracie, Java One, October 2015.
+- [*Beyond the Coffee Cup: Leveraging Java Runtime Technologies for the Polyglot.*](http://www.slideshare.net/0xdaryl/javaone-2015-con7547-beyond-the-coffee-cup-leveraging-java-runtime-technologies-for-polyglot?related=1) Daryl Maier, Java One, October 2015.
+- [*A VM is a VM is a VM: The Secret Path to High Performance Multi-Language Runtimes.*](https://www.youtube.com/watch?v=kOnyJurioyw) Mark Stoodley, JVM Languages Summit, August 2015.
 
-- Daryl Maier, [*Beyond the Coffee Cup: Leveraging Java Runtime Technologies for the Polyglot.*](http://www.slideshare.net/0xdaryl/javaone-2015-con7547-beyond-the-coffee-cup-leveraging-java-runtime-technologies-for-polyglot?related=1) Slides from Java One, October 2015.
 
-- Charlie Gracie, [*What's in an Object? Java Garbage Collection for the Polyglot.*](http://www.slideshare.net/charliegracie1/javaone-whats-in-an-object) Slides from Java One, October 2015.
-
-- Angela Lin, Robert Young, Craig Lehmann, and Xiaoli Liang, [*Building Your Own Runtime.*](https://ibm.box.com/s/7xdg25we2ezmdjjbqdys30d7dl1iyo49) CASCON Workshop, November 2015.
-
-- Mark Stoodley, [*Eclipse OMR Tech Talk.*](https://developer.ibm.com/open/videos/eclipse-omr-tech-talk/) developerWorks Open, July 2016.
-
-Note: the following slides have been modified since the original presentation to include the Eclipse OMR project name.
-
-- Charlie Gracie, [*Ruby and OMR: Experiments in utilizing OMR technologies in MRI.*](http://bofh.nikhef.nl/events/FOSDEM/2016/h2213/ruby-and-omr.mp4) Talk from FOSDEM, February 2016.
-
-- Charlie Gracie, [*A JVMs Journey into Polyglot Runtimes.*](https://t.co/efCKf6aCB4) Slides from jFokus, February 2016.
-
-- Mark Stoodley, *OMR: A modern toolkit for building language runtimes* (link when available). Slides from EclipseCON, March 2016.
-
+Note: Some slides have been modified since the original presentation to include the Eclipse OMR project name.

@@ -30,7 +30,7 @@ services, excluding those handled by the Thread Library.
 
 The Port Library is designed to be a standalone component that can be used to
 add multiplatform support to many projects. Thus Port Library APIs must not
-have dependencies on other OMR components, such as GC or JIT. They can use
+have dependencies on other OMR components, such as the Garbage Collector (GC) or Compiler. They can use
 omrthread_ APIs.
 
 In addition to abstracting platform-dependent details, Port Library APIs also
@@ -46,6 +46,3 @@ For example:
 
     OMRPORT_ACCESS_FROM_OMRVMTHREAD(omrVmThread);
     void *buffer = omrmem_allocate_memory(1024, OMRMEM_CATEGORY_MM);
-
-
-
