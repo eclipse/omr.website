@@ -25,26 +25,22 @@ lang: en
 
 # What is OMR?
 
-**The Eclipse OMR project** consists of a highly integrated set of open source C and C++ components that can be used to build robust language runtimes that will support many different hardware and operating system platforms. These components include, but are not limited to: memory management, threading, platform port (abstraction) library, diagnostic file support, monitoring support, garbage collection, and native 'Just In Time' compilation.
+**The Eclipse OMR project** consists of a highly integrated set of open source C and C++ components that can be used to build robust language runtimes that run on many different hardware and operating system platforms.
 
-**Licenses:** All Eclipse OMR project materials are made available under the Eclipse Public License V1.0 and the Apache 2.0 license. You can choose which license you wish to follow. Please see our LICENSE file for more details.
+The core technology components include, but are not limited to: a platform porting library, a thread library, diagnostic services, monitoring services, a just-in-time compiler, and a garbage collector.
 
-The initial set of **Eclipse OMR components** includes:
+Other, developer-focused components, include build tools and utilities, a test framework, and demonstration code to show how a language runtime might consume Eclipse OMR components.
 
-- **port**: platform porting library
-- **thread**: a cross platform pthread-like threading library
-- **util**: general utilities useful for building cross platform runtimes
-- **omrsigcompat**: signal handling compatibility library
-- **omrtrace**: tracing library for communication with IBM Health Center monitoring tools
-- **tool**: code generation tools for the build system
-- **gc**: garbage collection framework for managed heaps
-- **vm**: APIs to manage per-interpreter and per-thread contexts
-- **example**: demonstration code to show how a language runtime might consume Eclipse OMR components
-- **fvtest**: a language-independent test framework so that Eclipse OMR components can be tested outside a language runtime
+# Why should I use it?
 
-**Current consumers** of the Eclipse OMR technology:
+Despite decades of research and development in building languages and runtimes, almost none of the popular language runtimes share any common components. Many runtimes implement their own interface to the operating system, their own garbage collector, their own asynchronous event handling, their own diagnostic formats and so on. However, by reusing the core facilities provided by Eclipse OMR and extending those facilities to cater for your language, you can cut down on the time and effort needed for development. And of course, sharing implementation technology for language runtimes also fosters enablement and adoption of newer, modern programming languages.
 
-- The **IBM J9 Virtual Machine** is the most comprehensive consumer. J9 is a high performance, scalable, enterprise class Java Virtual Machine implementation representing hundreds of person-years of effort. While not an open source project itself, J9 directly implements capabilities for Java by using the core implementations provided by Eclipse OMR.
+One of the most compelling reasons to use Eclipse OMR is the pedigree of the code. Many of the components have their roots in the **J9 virtual machine**; a high performance, scalable, enterprise class Java virtual machine implementation that represents hundreds of person-years of effort. Today, the J9 virtual machine consumes Eclipse OMR from the open project as part of it's build process before adding extensions that are required to make it a Java specific runtime. As such, OMR is already pervasive at an Enterprise level, operating in production environments around the world.
+
+To prove that reuse is possible, here are some other consumers of the Eclipse OMR technology:
+
 - The **Ruby+OMR Technology Preview** project also consumes the Eclipse OMR components by modifying the CRuby project.
 - A **SOM++ Smalltalk** runtime has been modified to use Eclipse OMR components.
 - An experimental version of **CPython** using Eclipse OMR components has been created but is not currently available in the open. (Our focus has been on getting this code out into the open.)
+
+**Licenses:** All Eclipse OMR project materials are made available under the Eclipse Public License V1.0 and the Apache 2.0 license. You can choose which license you wish to follow. Please see our LICENSE file for more details.
