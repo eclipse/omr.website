@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    $('.menu').dropit();
+});
 
 $(function(){
 
@@ -139,7 +142,7 @@ $(function(){
     $('#navmenu').toggle()
     $('#overlay').toggle()
   })
-  
+
   // show normal menu when resizing to full window size (only used when mobile menu has been activated, then window resized afterwards)
   $(window).on('resize', function(event){
     var windowSizeWide = $(window).width();
@@ -151,51 +154,6 @@ $(function(){
 	$('#overlay').hide()
 	}
 }).trigger('resize');
-
-  // dropdown menu
-
-  if ('ontouchstart' in document.documentElement) {
-    $('#application-menu').dropit({ action: 'click' })
-    $('#getting-started-menu').dropit({ action: 'click' })
-    $('#guide-menu').dropit({ action: 'click' })
-    $('#reference-menu').dropit({ action: 'click' })
-    $('#resources-menu').dropit({ action: 'click' })
-    $('#resources-menu').dropit({ action: 'click' })
-  }
-  else {
-    $('#application-menu').dropit({ action: 'mouseenter' })
-    $('#getting-started-menu').dropit({ action: 'mouseenter' })
-    $('#guide-menu').dropit({ action: 'mouseenter' })
-    $('#reference-menu').dropit({ action: 'mouseenter' })
-    $('#resources-menu').dropit({ action: 'mouseenter' })
-    $('#releases-menu').dropit({ action: 'mouseenter' })
-  }
-
-  // mobile
-
-  // main menu
-  $('#navmenu > li').click(function () {
-
-    // applicable only if it has a menu
-    if ($(this).find('ul').length) {
-
-      if ($(this).hasClass('active-mobile-menu')) {
-        $(this).removeClass('active-mobile-menu')
-        $(this).find('.dropit .dropit-submenu').hide()
-      }
-      else {
-        $('.dropit .dropit-submenu').hide()
-        $(this).find('.dropit .dropit-submenu').show()
-        $('#navmenu li.active-mobile-menu').removeClass('active-mobile-menu')
-        $(this).addClass('active-mobile-menu')
-      }
-    }
-    else {
-      var path = $(this).find('a').attr('href')
-      document.location = path
-    }
-
-  })
 
   // when in mobile mode, menu names should open the submenu
   $('.dropit-trigger a').click(function (e) {
@@ -213,8 +171,6 @@ $(function(){
   })
 
 })
-
-
 
 function createCookie(name, value, days) {
   var expires;

@@ -105,23 +105,17 @@ h1 {
 }
 
 .f_link{
-	/*padding-left: 18px;
-	background-position: left;
-	background-repeat: no-repeat;*/
 	float: left;
 }
 
 .f_link_2{
-	/*padding-left: 18px;
-	background-position: left;
-	background-repeat: no-repeat;*/
 	float: left;
 	margin-left: 8px;
 	margin-right: 8px;
 }
 
 .f_mini{
-	
+
 }
 
 /* RESUME NORMAL CSS */
@@ -141,10 +135,8 @@ h1, h2, h3 {
 }
 
 p em {
-  /* font-weight: bold; */
   font-weight: normal;
-  font-style: italic;  
-  /* color: #353535; */
+  font-style: italic;
 }
 
 p {
@@ -175,7 +167,6 @@ strong, th {
  }
 
 .content {
-  /*margin: 90px 3% 7%;*/
   max-width: 1100px;
   padding-left: 70px;
   padding-right: 70px;
@@ -281,13 +272,7 @@ pre {
   padding: 16px;
   border-radius: 3px;
   overflow: auto;
-  /*border: 1px solid #ddd;*/
   background-color: #e9e9e9;
-}
-
-pre code {
-  /*overflow: scroll;*/
-  /*word-break: break-all;*/
 }
 
 /* top button */
@@ -383,17 +368,6 @@ pre code {
   color: #47768c;
 }
 
-pre, code {
-  /*white-space: pre-wrap !important;*/
-}
-
-footer {
- /* font-size: 12px;
-  padding: 30px 10px 30px 10px;
-  border-top: 1px solid #ddd;
-  background-color: #f1f9ff;*/
-}
-
 #git {
   background-image: url(/images/gitcat.png);
   background-size: 11px 16px;
@@ -420,7 +394,6 @@ footer {
 
 #navbar {
   margin-left: 196px;
-  /*max-width: 1193px;*/
   position: relative;
 }
 
@@ -442,9 +415,7 @@ footer {
   padding: 0;
   margin: auto;
   position: absolute;
-  /*right: 183px;*/
   top: 15px;
-  /*padding-left: 5%;*/
   z-index: 1000;
   margin-right: calc(50% - 160px);
   margin-left: calc(50% - 340px);
@@ -534,18 +505,18 @@ footer {
 }
 
 /* responsive */
-	
+
 
 @media all and (max-width: 899px) {
 
   #homeimg {
     width: 170px;
   }
-  
+
   #eggContainer {
 	margin-top: -2px;
 }
-  
+
    #home-content {
     margin: 100px auto 3% auto;
 	text-align: center;
@@ -573,7 +544,6 @@ footer {
   h3 {
     font-size: 16px;
     line-height: 23px;
-    /*word-break: break-all;*/
   }
 
   h4 {
@@ -597,8 +567,7 @@ footer {
   }
 
   #description .omr {
-    /* display: none; */
-	font-size: 4em;
+	   font-size: 4em;
   }
 
   #description .description {
@@ -607,7 +576,6 @@ footer {
   }
 
   #logo {
-    /*position: static;*/
     width: 100%;
   }
 
@@ -663,7 +631,6 @@ footer {
     float: none;
     border-bottom: 1px solid #ccc;
     margin: 0;
-    min-height: 47px;
     position: relative;
     background: #eee;
     cursor: pointer;
@@ -697,14 +664,12 @@ footer {
     border: none;
     border-radius: 0;
     box-shadow: none;
-/*    max-height: 190px; */
     overflow-y: hidden;
     overflow-x: hidden;
   }
 
   .dropit-trigger > a {
     display: block;
-    margin-bottom: 8px !important;
   }
 
   .menu ul.dropit-submenu a {
@@ -722,14 +687,6 @@ footer {
   .menu ul {
     display: block;
   }
-
-  .active-mobile-menu {
-    /*border-bottom: none !important;*/
-  }
-
-  /*.active-mobile-menu .dropit-trigger {
-    margin-bottom: 0 !important;
-  }*/
 
   .menu ul.dropit-submenu a:hover {
     background: #cccccc;
@@ -762,47 +719,47 @@ footer {
 	display: none;
 	}
 
-#f_container_2 #f_1 { 
+#f_container_2 #f_1 {
 	margin: auto;
 }
-	
-#f_container_2 #f_1 .f_link_group .f_link_2 { 
+
+#f_container_2 #f_1 .f_link_group .f_link_2 {
 	float: none;
 }
-	
-#f_container_2 #f_1 .f_link_group .f_link_2:after { 
+
+#f_container_2 #f_1 .f_link_group .f_link_2:after {
 	content:"\A";
-	white-space:pre; 
+	white-space:pre;
 }
-	
+
 }
 
 
 @media all and (max-width: 600px) {
-	
+
  #home-content {
     margin: 100px auto 3% auto;
 	text-align: center;
 	max-width: 340px;
  }
- 
+
   #homeimg {
 	max-width: 145px;
  }
- 
+
    #description .omr {
     font-size: 3.2em;
   }
-	
+
   #description .description {
     font-size: 1.8em;
     line-height: .9em;
   }
-	
+
 }
 
 @media all and (max-width: 490px) {
-	
+
 #boxes div {
 	text-align: left;
 	font-size: 1em;
@@ -821,12 +778,11 @@ footer {
 	text-align: center;
 	max-width: 240px;
  }
- 
+
   #description .omr {
-   /*  display: none; */
 	font-size: 2.5em;
   }
- 
+
   #description .description {
     font-size: 1.3em;
     line-height: .9em;
@@ -835,13 +791,12 @@ footer {
   footer {
     margin: 0;
   }
-  
+
   #sponsor {
     margin-top: 30px;
   }
 
   #fork {
-    /* margin-left: 7px; */
     margin-top: 2px;
     margin-bottom: 30px;
     padding-left: 18px;
@@ -854,15 +809,15 @@ footer {
   #install-command {
     font-size: 12px;
   }
-  
+
     #homeimg {
     width: 105px;
   }
-  
+
 }
 
 
-.drop { 
+.drop {
   font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100%;
   color: #BE0C0B;
@@ -871,4 +826,3 @@ footer {
   line-height : 0.5;
   margin      : 0.24em 0 0 0;
 }
-	
