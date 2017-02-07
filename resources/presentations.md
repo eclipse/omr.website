@@ -25,6 +25,12 @@ lang: en
 
 # Recent presentations
 
+- [*Highly Surmountable Challenges in Ruby+OMR JIT Compilation*](https://fosdem.org/2017/schedule/event/ruby_highly_surmountable_challenges_in_ruby_omr_jit_compilation/) Matthew Gaudet, FOSDEM, February 2017.
+- [*A different Lua JIT using Eclipse OMR*](https://fosdem.org/2017/schedule/event/eclipse_omr/) Charlie Gracie, FOSDEM, February 2017.
+- [*Eclipse OMR Update Tech Talk*](https://developer.ibm.com/open/videos/eclipse-omr-update-tech-talk/) Mark Stoodley, developerWorks Open, January 2017.
+
+# Previous presentations and events 
+
 - [*Eclipse OMR Tech Talk.*](https://developer.ibm.com/open/videos/eclipse-omr-tech-talk/) Mark Stoodley, developerWorks Open, July 2016.
 - [*OMR: A modern toolkit for building language runtimes*](http://www.slideshare.net/MarkStoodley/omr-a-modern-toolkit-for-building-language-runtimes). Mark Stoodley, EclipseCON, March 2016.
 - [*A JVMs Journey into Polyglot Runtimes.*](https://t.co/efCKf6aCB4) Charlie Gracie, jFokus, February 2016.
