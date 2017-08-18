@@ -27,13 +27,14 @@ lang: en
 
 - [*Highly Surmountable Challenges in Ruby+OMR JIT Compilation*](https://fosdem.org/2017/schedule/event/ruby_highly_surmountable_challenges_in_ruby_omr_jit_compilation/) Matthew Gaudet, FOSDEM, February 2017.
 - [*A different Lua JIT using Eclipse OMR*](https://fosdem.org/2017/schedule/event/eclipse_omr/) Charlie Gracie, FOSDEM, February 2017.
+- [*OMR B9*](https://github.com/youngar/Base9/blob/master/CUSEC%202017%20-%20Buildering%20a%20JIT.pdf) Andrew Young, Kim Briggs, Shelley Lambert and John Duimovich, CUSEC, January 2017.
 - [*Ruby and OMR: Experiments in utilizing OMR technologies in MRI*](http://bofh.nikhef.nl/events/FOSDEM/2016/h2213/ruby-and-omr.mp4) Charlie Gracie, FOSDEM, February 2016.
 
 # Deep Dives
 
 - [*Testing Testarossa - The Eclipse OMR Compiler*](https://youtu.be/D0BCftV6DpE) Leonardo Banderali, August, 2017.
-- [*How does Eclipse OMR compare to LLVM*](http://www.ustream.tv/recorded/105013815) Mark Stoodley, June, 2017.
-- [*Eclipse OMR Update Tech Talk*](http://www.ustream.tv/recorded/98846650) Mark Stoodley, developerWorks Open, January 2017.
+- [*Eclipse OMR: How does all this compare to LLVM?*](http://www.ustream.tv/recorded/105013815) Mark Stoodley, June, 2017.
+- [*Eclipse OMR Update: compiler component, JitBuilder and proof of concepts*](http://www.ustream.tv/recorded/98846650) Mark Stoodley, developerWorks Open, January 2017.
 - [*Eclipse OMR Tech Talk*](https://developer.ibm.com/open/videos/eclipse-omr-tech-talk/) Mark Stoodley, developerWorks Open, July 2016.
 - [*OMR: A modern toolkit for building language runtimes*](http://www.slideshare.net/MarkStoodley/omr-a-modern-toolkit-for-building-language-runtimes) Mark Stoodley, EclipseCON, March 2016.
 - [*A JVMs Journey into Polyglot Runtimes*](https://t.co/efCKf6aCB4) Charlie Gracie, jFokus, February 2016.
