@@ -43,4 +43,4 @@ To prove that reuse is possible, here are some other consumers of the Eclipse OM
 - A **SOM++ Smalltalk** runtime has been modified to use Eclipse OMR components.
 - An experimental version of **CPython** using Eclipse OMR components has been created but is not currently available in the open. (Our focus has been on getting this code out into the open.)
 
-**Licenses:** All Eclipse OMR project materials are made available under the Eclipse Public License V1.0 and the Apache 2.0 license. You can choose which license you wish to follow. Please see our LICENSE file for more details.
+**Licenses:** All Eclipse OMR project materials are made available under the Eclipse Public License v2.0 or the Apache License v2.0.  In addition, this source code may also be made available under the following Secondary Licenses when the conditions for such availability set forth in the Eclipse Public License v2.0 are satisfied: GNU General Public License, version 2 with the GNU Classpath Exception and GNU General Public License, version 2 with the OpenJDK Assembly Exception.
