@@ -29,6 +29,6 @@ lang: en
 
 # Blog posts
 
-- [Introducing the Ruby+OMR JIT](https://developer.ibm.com/open/2016/11/18/introducing-ruby-jit/) by Matthew Gaudet, November 18, 2016
-- [JitBuilder Library and Eclipse OMR: Just-in-time compilers made easy](https://developer.ibm.com/open/2016/07/19/jitbuilder-library-and-eclipse-omr-just-in-time-compilers-made-easy/) by Mark Stoodley, July 19, 2016
-- [Introducing Eclipse OMR: Building language runtimes](https://developer.ibm.com/open/2016/03/08/introducing-omr-building-language-runtimes/) by Mark Stoodley, March 8, 2016
+- [Introducing the Ruby+OMR JIT](https://developer.ibm.com/code/2016/11/18/introducing-ruby-jit/) by Matthew Gaudet, November 18, 2016
+- [JitBuilder Library and Eclipse OMR: Just-in-time compilers made easy](https://developer.ibm.com/code/2016/07/19/jitbuilder-library-and-eclipse-omr-just-in-time-compilers-made-easy/) by Mark Stoodley, July 19, 2016
+- [Introducing Eclipse OMR: Building language runtimes](https://developer.ibm.com/code/2016/03/08/introducing-omr-building-language-runtimes/) by Mark Stoodley, March 8, 2016
