@@ -29,23 +29,41 @@ lang: en
 
 # Building
 
-### How to build a standalone Eclipse OMR with a basic configuration
+### How to Build a Standalone Eclipse OMR with a basic configuration
 
-To build a standalone Eclipse OMR, run the following commands from the top of the source tree. The top of the Eclipe OMR source tree is the directory that contains `run_configure.mk`. Note that on Windows systems, you must use a shell script interpreter such as bash to run the configure command.
+To build standalone Eclipse OMR, run the following commands from the root of the
+source tree.
 
-    # Generate autotools makefiles with SPEC-specific presets
-    make -f run_configure.mk SPEC=linux_x86-64 OMRGLUE=./example/glue
+    # Create a build directory and cd into it
+    mkdir build
+    cd build
 
-    # Build
+    #generate the build system using cmake
+    cmake ..
+
+    # Build (you can optionally compile in parallel by adding -j<N> to the make command)
     make
 
+    # Run tests (note that no contribution should cause new test failures in testing).
+    # Use the `-V` option to see verbose output from the tests.
+    ctest [-V]
+
+### Building Eclipse OMR on Windows using Visual Studio
+
+The following instructions below demonstrate the steps to build Eclipse OMR on Windows
+using Visual Studios. In the example Visual Studio 11 2012 Win64 is being used.
+You can easily switch this to the version of Visual Studio you would like to use.
+
+    # Create a build directory and cd into it
+    mkdir build
+    cd build
+
+    #generate the build system using cmake
+    cmake -G "Visual Studio 11 2012 Win64" ..
+
+    # Build
+    cmake --build .
+
     # Run tests (note that no contribution should cause new test failures in "make test")
-    make test
+    ctest
 
-Run the following command for a list of configure makefile targets:
-
-    make -f run_configure.mk help
-
-Run the following command for a list of build targets:
-
-    make help
